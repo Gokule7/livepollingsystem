@@ -1,0 +1,6 @@
+build:
+  env:
+    - MONGODB_URI
+    - JWT_SECRET
+    - CORS_ORIGIN
+    - NODE_ENV=production

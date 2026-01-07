@@ -1,0 +1,114 @@
+.poll-history {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.poll-history h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.no-history {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.history-item {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.history-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.history-header {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+
+.history-header h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.history-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.history-meta .date {
+  color: #999;
+}
+
+.history-meta .total {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.history-results {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.history-option {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.option-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.option-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.option-percentage {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.progress-bar-small {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress-fill-small {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s ease;
+}
+
+.vote-count {
+  font-size: 0.85rem;
+  color: #999;
+}
